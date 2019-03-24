@@ -4,7 +4,7 @@
   "description": "logzio TSLint config for TypeScript projects",
   "main": "index.js",
   "license": "MIT",
-  "author": "Nir Winkler <nir.winkler@builders.io>",
+  "author": "Nir Winkler <madvinking@gmail.com>",
   "keywords": [
     "tslint",
     "config",

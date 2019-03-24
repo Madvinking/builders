@@ -7,10 +7,7 @@ module.exports = {
     'no-descending-specificity': null,
     'no-duplicate-selectors': null,
     'selector-pseudo-element-colon-notation': null,
-    'selector-type-no-unknown': [
-      true,
-      { ignore: ['custom-elements', 'default-namespace'] },
-    ],
-    'prettier/prettier': [true, { singleQuote: true }],
-  },
+    'selector-type-no-unknown': [true, { ignore: ['custom-elements', 'default-namespace'] }],
+    'prettier/prettier': [true, { singleQuote: true }]
+  }
 };

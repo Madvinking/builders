@@ -4,7 +4,7 @@
   "description": "logzio typescript and there types",
   "main": "index.js",
   "license": "MIT",
-  "author": "Nir Winkler <nir.winkler@builders.io>",
+  "author": "Nir Winkler <madvinking@gmail.com>",
   "keywords": [
     "typescript",
     "shared",

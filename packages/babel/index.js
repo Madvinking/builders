@@ -5,5 +5,5 @@ const nodeConfig = require('./src/node.config');
 module.exports = {
   browserDevConfig,
   browserProdConfig,
-  nodeConfig,
+  nodeConfig
 };

@@ -1,3 +1,3 @@
 exports.modules = {
-    "extends": require.resolve('./tsconfig.json'),
+  extends: require.resolve('./tsconfig.json')
 };

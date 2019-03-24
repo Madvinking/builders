@@ -7,6 +7,6 @@ module.exports = {
   plugins: ['@typescript-eslint', ...eslintrc.plugins],
   extends: ['plugin:@typescript-eslint/recommended', ...eslintrc.extends],
   rules: {
-    '@typescript-eslint/restrict-plus-operands': 'error',
-  },
+    '@typescript-eslint/restrict-plus-operands': 'error'
+  }
 };
