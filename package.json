@@ -1,0 +1,17 @@
+{
+  "name": "builders",
+  "version": "1.0.0",
+  "license": "MIT",
+  "description": "quick setup with include all the tools need for build",
+  "private": true,
+  "scripts": {
+    "clean": "rm -r node_modules **/node_modules",
+    "install": "lerna bootstrap"
+  },
+  "workspaces": [
+    "packages/*"
+  ],
+  "devDependencies": {
+    "lerna": "^3.13.1"
+  }
+}

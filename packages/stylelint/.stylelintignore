@@ -1,0 +1,4 @@
+**/node_modules
+kibana/optimize
+**/dist
+webapp/app/styleguide/app/styles/_animations.less

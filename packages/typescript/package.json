@@ -1,0 +1,41 @@
+{
+  "name": "@builders/typescript",
+  "version": "1.0.0",
+  "description": "logzio typescript and there types",
+  "main": "index.js",
+  "license": "MIT",
+  "author": "Nir Winkler <nir.winkler@builders.io>",
+  "keywords": [
+    "typescript",
+    "shared",
+    "logzio"
+  ],
+  "private": true,
+  "scripts": {
+    "cp": "rsync -r src dist --exclude='*.ts' --exclude='*.tsx'",
+    "lint": "eslint --quiet --fix --color .",
+    "test": ""
+  },
+  "dependencies": {
+    "typescript": "3.3.4000",
+    "@types/lodash": "^4.14.123",
+    "@types/node": "^11.11.5",
+    "@types/serialize-error": "^2.1.0",
+    "@types/jest": "^24.0.11",
+    "@types/angular": "^1.6.54",
+    "@types/prop-types": "^15.7.0",
+    "@types/styled-components": "^4.1.12",
+    "@types/grid-styled": "^4.2.1",
+    "@types/react": "^16.8.8",
+    "@types/react-dom": "^16.8.3",
+    "@types/consul": "^0.23.33",
+    "@types/dojo": "1.9.41",
+    "@types/fs-extra": "^5.0.5",
+    "@types/mkdirp": "^0.5.2",
+    "@types/mysql": "^2.15.5",
+    "@types/query-string": "^6.3.0",
+    "@types/request": "^2.48.1",
+    "@types/request-promise": "^4.1.42",
+    "ts-node": "8.0.3"
+  }
+}

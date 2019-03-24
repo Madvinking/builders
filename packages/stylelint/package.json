@@ -1,0 +1,28 @@
+{
+  "name": "@builders/stylelint-config",
+  "version": "1.0.0",
+  "description": "logzio style lint config for css/sass files",
+  "main": "index.js",
+  "license": "MIT",
+  "author": "Nir Winkler nir.winkler@builders.io",
+  "keywords": [
+    "stylelint",
+    "config",
+    "shared",
+    "lint",
+    "plugin",
+    "logzio"
+  ],
+  "private": true,
+  "scripts": {
+    "lint": "eslint --quiet --fix --color .",
+    "test": ""
+  },
+  "dependencies": {
+    "@builders/eslint-config": "1.0.0",
+    "stylelint": "9.10.1",
+    "prettier-stylelint": "0.4.2",
+    "stylelint-config-prettier": "5.0.0",
+    "stylelint-config-recommended": "2.1.0"
+  }
+}

@@ -1,0 +1,7 @@
+
+export DOCKER_FILE=full
+export CONTEXT=/Users/nirwinkler/logzio/gaia-hermes-ws
+export REGISTRY=registry.internal.logz.io:5000
+export GIT_BRANCH=DEV-8888-dockerfile-in-jenkins
+
+docker-compose -f dockers/docker-compose.yml build styleguide_base

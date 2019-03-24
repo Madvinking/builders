@@ -1,0 +1,35 @@
+{
+	"name": "@builders/eslint-config",
+	"version": "1.0.0",
+	"description": "eslint default setup",
+	"main": "index.js",
+	"license": "MIT",
+	"author": "Nir Winkler <madvinking@gmail.com>",
+	"keywords": [
+		"eslint",
+		"config",
+		"shared",
+		"lint",
+		"plugin"
+	],
+	"private": true,
+	"scripts": {
+		"lint-check": "eslint --print-config . | eslint-config-prettier-check",
+		"lint": "eslint --quiet --fix --color .",
+		"test": ""
+	},
+	"dependencies": {
+		"babel-eslint": "10.0.1",
+		"eslint": "5.15.3",
+		"eslint-plugin-babel": "5.3.0",
+		"eslint-config-prettier": "4.1.0",
+		"eslint-plugin-prettier": "3.0.1",
+		"eslint-plugin-import": "^2.16.0",
+		"eslint-plugin-jest": "^22.4.1",
+		"eslint-plugin-jsx-a11y": "^6.2.1",
+		"eslint-plugin-monorepo": "^0.2.1",
+		"eslint-plugin-no-mixed-operators": "^1.1.1",
+		"eslint-plugin-react": "^7.12.4",
+		"prettier": "1.16.4"
+	}
+}
